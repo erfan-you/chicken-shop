@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ckicken Shop</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <link rel="icon" href="./img/logo.PNG">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar Start -->
+        <div class="container-fluid nav-bar bg-transparent">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+                <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
+                    <div class="icon p-2 me-2">
+                        <img class="img-fluid" src="./img/logo.PNG" alt="Icon" style="width: 50px; height: 50px;">
+                    </div>
+                    <h1 class="m-0 text-primary">CHICKEN SHOP</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="#about_shop" class="nav-item nav-link">About shop</a>
+                        <div class="nav-item dropdown">
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#Products_" class="nav-link ">Products</a>
+                        </div>
+                        <a href="#contact" class="nav-item nav-link">Contact us</a>
+                    </div>
+                    <a href="Vidproducts.html" class="btn btn-primary px-3 d-none d-lg-flex">All video</a>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+
+        <!-- Header Start -->
+        <div class="container-fluid header bg-white p-0">
+            <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
+                <div class="col-md-6 p-5 mt-lg-5">
+                    <h1 class="display-5 animated fadeIn mb-4">welcome to the <span class="text-primary">Chicken shop</span> This shop operates throughout Germany</h1>
+                    <a href="#contact" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">Contact us</a>
+                </div>
+                <div class="col-md-6 animated fadeIn">
+                    <div class="owl-carousel header-carousel">
+                        <div class="owl-carousel-item" >
+                            <img class="img-fluid" src="./img/banner1.jpg" alt="">
+                        </div>
+                        <div class="owl-carousel-item">
+                            <img class="img-fluid" src="./img/banner2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+
+
+        <!-- Category Start -->
+        <div class="container-xxl py-5" id="about_shop">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1 class="mb-3" style="color: var(--primary);">About shop</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" src="img/icon-housing.png" alt="Icon">
+                                </div>
+                                <h6>COKE</h6>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" src="img/icon-housing.png" alt="Icon">
+                                </div>
+                                <h6>HAZE AND KUSH</h6>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" src="img/icon-housing.png" alt="Icon">
+                                </div>
+                                <h6>DRY</h6>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" src="img/icon-housing.png" alt="Icon">
+                                </div>
+                                <h6>FROZEN</h6>
+                            </div>
+                        </a>
+                </div>
+            </div>
+        </div>
+        <!-- Category End -->
+
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="about-img position-relative overflow-hidden p-5 pe-0">
+                            <img class="img-fluid w-100" src="./img/header.jpg">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <h1 class="mb-4">We have the best quality</h1>
+                        <h5 class="mb-4">just order with confidence, wherever you are in Germany, the product will be sent to you by DHL. Just send us a message via Telegram or Signal and place your order.</h5>
+                        <p><i class="fa fa-check text-primary me-3"></i>best quality</p>
+                        <p><i class="fa fa-check text-primary me-3"></i>best choose</p>
+                        <p><i class="fa fa-check text-primary me-3"></i>best price</p>
+                        <a class="btn btn-primary py-3 px-5 mt-3" href="#contact">Contact us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Property List Start -->
+        <div class="container-xxl py-5" id="Products_">
+            <div class="container">
+                <div class="row g-0 gx-5 align-items-end">
+                    <div class="col-lg-6">
+                        <div class="text-start mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
+                            <h1 class="mb-3">Products</h1>
+                            <p style="color: var(--primary);">Just send us a message via Telegram or Signal and place your order</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content">
+                    <div id="tab-1" class="tab-pane fade show p-0 active">
+                        <div class="row g-4">
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href="#contact"><img class="img-fluid" src="./img/product1.JPG" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">available</div>
+                                        <div class="bg-white rounded-top text--red position-absolute start-0 bottom-0 mx-4 pt-1 px-3">HAZE AND KUSH</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-2">5 g : €50 euro</h5>
+                                        <h5 class="text-primary mb-2">15 g : €120 euro</h5>
+                                        <h5 class="text-primary mb-2">30 g : €200 euro</h5>
+                                        <h5 class="text-primary mb-4">60 g : €350 euro</h5>
+                                        <a class=" btn btn-primary px-3 h5 mb-2" href="#contact">Buy</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Germany</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href="#contact"><img class="img-fluid" src="./img/product2.png" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">available</div>
+                                        <div class="bg-white rounded-top text--red position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Coke</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-2">1 g : €90 euro</h5>
+                                        <h5 class="text-primary mb-2">2.5 g : €200 euro</h5>
+                                        <h5 class="text-primary mb-2">5 g : €350 euro</h5>
+                                        <h5 class="text-primary mb-4">10 g : €600 euro</h5>
+                                        <a class=" btn btn-primary px-3 h5 mb-2" href="#contact">Buy</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Germany</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href="#contact"><img class="img-fluid" src="./img/product3.jpg" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">available</div>
+                                        <div class="bg-white rounded-top text--red position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Dry</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-4">10 g : €75 euro</h5>
+                                        <h5 class="text-primary mb-4">25 g : €150 euro</h5>
+                                        <h5 class="text-primary mb-4">50 g : €300 euro</h5>
+                                        <a class=" btn btn-primary px-3 h5 mb-2" href="#contact">Buy</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Germany</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href="#contact"><img class="img-fluid" src="./img/product4.jpg" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">available</div>
+                                        <div class="bg-white rounded-top text--red position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Frozen</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-4">5 g : €90 euro</h5>
+                                        <h5 class="text-primary mb-4">10 g : €160 euro</h5>
+                                        <h5 class="text-primary mb-4">25 g : €350 euro</h5>
+                                        <a class=" btn btn-primary px-3 h5 mb-2" href="#contact">Buy</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Germany</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href="#contact"><img class="img-fluid" src="./img/product5.jpg" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">available</div>
+                                        <div class="bg-white rounded-top text--red position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Speed</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-4">10 g : €50 euro</h5>
+                                        <h5 class="text-primary mb-4">30 g : €130 euro</h5>
+                                        <h5 class="text-primary mb-4">50 g : €200 euro</h5>
+                                        <a class=" btn btn-primary px-3 h5 mb-2" href="#contact">Buy</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Germany</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href="#contact"><img class="img-fluid" src="./img/product6.JPG" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">available</div>
+                                        <div class="bg-white rounded-top text--red position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Keta</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-4">1 g : €75 euro</h5>
+                                        <h5 class="text-primary mb-4">3 g : €150 euro</h5>
+                                        <h5 class="text-primary mb-4">5 g : €300 euro</h5>
+                                        <a class=" btn btn-primary px-3 h5 mb-2" href="#contact">Buy</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Germany</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
+                                <a class="btn btn-primary py-3 px-5" href=".Vidproducts.html">video of products</a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Property List End -->
+
+
+        <!-- Call to Action Start -->
+    <section id="contact">
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="bg-light rounded p-3">
+                    <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                        <h1 class="mb-3" style="color: var(--primary);">Contact us</h1>
+                    </div>
+                    <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                                <img class="img-fluid rounded w-100 contact-img" src="./img/contact.jpg" alt="">
+                            </div>
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="mb-4">
+                                    <h3 class="mb-3">send us a message via <span style="color: var(--primary);">Telegram</span> or <span style="color: var(--primary);">Signal</span> and place your order.</h3>
+                                </div>
+                                <a href="https://t.me/katman1233" class="tel-btn btn btn-primary py-3 px-4 me-2"><i class="fab fa-telegram me-2"></i>Telegran id</a>
+                                <a href="https://signal.me/#eu/6TYYuDnisqaXWsep4Qz24PMCH97QNsugIXMMMirBngOSMO0WNA1FyIfAMSrWzSMB" class="btn btn-dark py-3 px-4">Signal id</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+        <!-- Call to Action End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Get In Touch</h5>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Germany</p>
+                        <p class="mb-2"><i class="fab fa-telegram me-3"></i>@katman1233</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Quick Links</h5>
+                        <a class="btn btn-link text-white-50" href="">About Shop</a>
+                        <a class="btn btn-link text-white-50" href="">Products</a>
+                        <a class="btn btn-link text-white-50" href="">contact us</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Photo Gallery</h5>
+                        <div class="row g-2 pt-2">
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/property-1.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/property-2.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/property-3.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/property-4.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/property-5.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/property-6.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Newsletter</h5>
+                        <p>send us your email.</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; All Right Reserved. 
+							
+							Designed By <span class="text-white">erfan you</span>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="">Home</a>
+                                <a href="">Cookies</a>
+                                <a href="">Help</a>
+                                <a href="">FQAs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
